@@ -120,7 +120,7 @@ io.sockets.on('connection', function (socket) {
 		players[socket.id].username = username;
 		players[socket.id].room = room;
 
-		/* Actually hace the user join the room */
+		/* Actually have the user join the room */
 		socket.join(room);
 
 		/* Get the room object */
